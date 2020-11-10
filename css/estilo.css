@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cornflowerblue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+.elemento{
+    width: 200px;
+    height: 200px;
+    margin: 0rem 0rem 0rem 0rem;
+    background: rgb(154, 158, 158);
+}
+
+.tabla-periodica{
+    width: 95%;
+    height: 50%;
+    margin: 1rem;
+    background: rgb(251, 251, 251);
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+/*helio*/
+.item:nth-child(2){
+    grid-column-start: 18;
+}
+/*Liberio*/
+.item:nth-child(3){
+    grid-row-start: 2;
+}
+/*Berio*/
+.item:nth-child(4){
+    /* grid-row-start: 2;
+    grid-column-start: 2; */
+}
+/*Boro*/
+.item:nth-child(5){
+    grid-column-start: 13;
+}
+/*Carbono*/
+.item:nth-child(6){
+/*     grid-column-start: 14;
+ */}
+/*Nitrogeno*/
+.item:nth-child(7){
+
+}
+/*Oxigeno*/
+.item:nth-child(8){
+    
+}
+/*Flour*/
+.item:nth-child(9){
+    
+}
+/*Neon*/
+.item:nth-child(10){
+    
+}
+/*sodio*/
+.item:nth-child(11){
+
+}
+/*Magnesio*/
+.item:nth-child(12){
+    
+}
+/*Aluminio*/
+.item:nth-child(13){
+    grid-column-start: 13;
+}
+/*Silicio*/
+.item:nth-child(14){
+}
+/*Fosforo*/
+.item:nth-child(15){
+}
+/*Asufre*/
+.item:nth-child(16){
+}
+/*Cloro*/
+.item:nth-child(17){
+}
+/*Argon*/
+.item:nth-child(18){
+}
+/*Potacio*/
+.item:nth-child(19){
+}
+/*Calcio*/
+.item:nth-child(20){
+}
+/*Estancio*/
+.item:nth-child(21){
+}
+/*Titanio*/
+.item:nth-child(22){
+}
+/*Vanadio*/
+.item:nth-child(23){
+}
+/*Cromo*/
+.item:nth-child(24){
+}
+/*Magnesio*/
+.item:nth-child(25){
+}
+/*Hierro*/
+.item:nth-child(26){
+}
+/*Colbato*/
+.item:nth-child(27){
+}
+
+/*36 krypton*/
+.item:nth-child(36){
+}
+/*37 Rubidio*/
+.item:nth-child(37){
+}
+
+/*54 Xeon*/
+.item:nth-child(54){
+}
+/*55 Cesio*/
+.item:nth-child(55){
+}
+/*56 Bario*/
+.item:nth-child(56){
+}
+.item:nth-child(57){
+    background: rgb(154, 158, 158)
+}
+
+
+/***************** PRIMER CUADRO EN BLANCO ************************/
+/*57 Lantano*/
+.item:nth-child(58){
+    grid-column-start: 3;
+    grid-row-start: 8;
+    background: red;
+}
+/*58 Lantano*/
+.item:nth-child(59){
+    grid-column-start: 4;
+    grid-row-start: 8;
+    background: red;
+
+}
+/*59 Praseodimio*/
+.item:nth-child(59){
+    grid-column-start: 5;
+    grid-row-start: 8;
+}
+/*60 Nd*/
+.item:nth-child(60){
+    grid-column-start: 6;
+    grid-row-start: 8;
+}
+/*61 Promedio*/
+.item:nth-child(61){
+    grid-column-start: 7;
+    grid-row-start: 8;
+}
+/*62 Samario*/
+.item:nth-child(62){
+    grid-column-start: 8;
+    grid-row-start: 8;
+}
+/*63 Europio*/
+.item:nth-child(63){
+    grid-column-start: 9;
+    grid-row-start: 8;
+}
+/*64 Gadolinio*/
+.item:nth-child(64){
+    grid-column-start: 10;
+    grid-row-start: 8;
+}
+/*65 Terbio*/
+.item:nth-child(65){
+    grid-column-start: 11;
+    grid-row-start: 8;
+}
+/*66 Disprosio*/
+.item:nth-child(66){
+    grid-column-start: 12;
+    grid-row-start: 8;
+}
+/*67 Holmio*/
+.item:nth-child(67){
+    grid-column-start: 13;
+    grid-row-start: 8;
+}
+/*68 Erbio*/
+.item:nth-child(68){
+    grid-column-start: 14;
+    grid-row-start: 8;
+}
+/*69 Tulio*/
+.item:nth-child(69){
+    grid-column-start: 15;
+    grid-row-start: 8;
+}
+/*70 Iterbio*/
+.item:nth-child(70){
+    grid-column-start: 16;
+    grid-row-start: 8;
+}
+/*71 Lutecio*/
+.item:nth-child(71){
+    grid-column-start: 17;
+    grid-row-start: 8;
+}
+/***************** FIN DEL PRIMER CUADRO ********/
+
+/*72 Hafnio*/
+.item:nth-child(72){
+    grid-column-start: 4;
+    grid-row-start: 6;
+}
+/*73 Hafnio*/
+.item:nth-child(73){
+    grid-column-start: 5;
+    grid-row-start: 6;
+}
+/*74 Wolframio */
+.item:nth-child(74){
+    grid-column-start: 6;
+    grid-row-start: 6;
+}
+/*75 Renio*/
+.item:nth-child(75){
+    grid-column-start: 7;
+    grid-row-start: 6;
+}
+/*76 Osmio*/
+.item:nth-child(76){
+    grid-column-start: 8;
+    grid-row-start: 6;
+}
+/*77 Iridio*/
+.item:nth-child(77){
+    grid-column-start: 9;
+    grid-row-start: 6;
+}
+/*78 Platino*/
+.item:nth-child(78){
+    grid-column-start: 10;
+    grid-row-start: 6;
+}
+/*79 Oro*/
+.item:nth-child(79){
+    grid-column-start: 11;
+    grid-row-start: 6;
+}
+/*80 Mercurio*/
+.item:nth-child(80){
+    grid-column-start: 12;
+    grid-row-start: 6;
+}
+
+/*81 Talio*/
+.item:nth-child(81){
+    grid-column-start: 13;
+    grid-row-start: 6;
+}
+/*82 Plomo*/
+.item:nth-child(82){
+    grid-column-start: 14;
+    grid-row-start: 6;
+}
+
+/*83 Bismuto*/
+.item:nth-child(83){
+    grid-column-start: 15;
+    grid-row-start: 6;
+}
+/*84 Plomo*/
+.item:nth-child(84){
+    grid-column-start: 16;
+    grid-row-start: 6;
+}
+/*85 Astato*/
+.item:nth-child(85){
+    grid-column-start: 17;
+    grid-row-start: 6;
+}
+
+/*85 Radon*/
+.item:nth-child(86){
+    grid-column-start: 18;
+    grid-row-start: 6;
+}
+
+/*87 Francio*/
+.item:nth-child(87){
+    grid-row-start: 7;
+}
+
+/*88 Radio*/
+.item:nth-child(88){
+    grid-row-start: 7;
+}

@@ -1,0 +1,828 @@
+[
+    {
+        "Id": 1,
+        "Letra": "H",
+        "Nombre": "Hidrógeno",
+        "Peso": "1,008",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 2,
+        "Letra": "He",
+        "Nombre": "Helio",
+        "Peso": "4,0026",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 3,
+        "Letra": "Li",
+        "Nombre": "Helio",
+        "Peso": "4,0026",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 4,
+        "Letra": "Be",
+        "Nombre": "Berilio",
+        "Peso": "9,0122",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 5,
+        "Letra": "B",
+        "Nombre": "Boro",
+        "Peso": "10,81",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 6,
+        "Letra": "C",
+        "Nombre": "Carbono",
+        "Peso": "12,011",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 7,
+        "Letra": "N",
+        "Nombre": "Nitrógeno",
+        "Peso": "14,007",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 8,
+        "Letra": "O",
+        "Nombre": "Oxígeno",
+        "Peso": "15,999",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 9,
+        "Letra": "F",
+        "Nombre": "Flúor",
+        "Peso": "18,998",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 10,
+        "Letra": "Ne",
+        "Nombre": "Neón",
+        "Peso": "20,180",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 11,
+        "Letra": "Na",
+        "Nombre": "Sodio",
+        "Peso": "22,990",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 12,
+        "Letra": "Mg",
+        "Nombre": "Magnesio",
+        "Peso": "24,305",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 13,
+        "Letra": "Mg",
+        "Nombre": "Magnesio",
+        "Peso": "24,305",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 14,
+        "Letra": "Si",
+        "Nombre": "Silicio",
+        "Peso": "28,085",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 15,
+        "Letra": "P",
+        "Nombre": "Fósforo",
+        "Peso": "30,974",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 16,
+        "Letra": "S",
+        "Nombre": "Azufre",
+        "Peso": "32,06",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 17,
+        "Letra": "Cl",
+        "Nombre": "Cloro",
+        "Peso": "35,45",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 18,
+        "Letra": "Ar",
+        "Nombre": "Argón",
+        "Peso": "39,948",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 19,
+        "Letra": "K",
+        "Nombre": "Potasio",
+        "Peso": "39,098",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 20,
+        "Letra": "Ca",
+        "Nombre": "Calcio",
+        "Peso": "40,078",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 21,
+        "Letra": "Ss",
+        "Nombre": "Escandio",
+        "Peso": "44,956",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 22,
+        "Letra": "Ti",
+        "Nombre": "Titanio",
+        "Peso": "47,867",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 23,
+        "Letra": "V",
+        "Nombre": "Vanadio",
+        "Peso": "50,942",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 24,
+        "Letra": "Cr",
+        "Nombre": "Cromo",
+        "Peso": "51,996",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 25,
+        "Letra": "Mn",
+        "Nombre": "Manganeso",
+        "Peso": "54,938",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 26,
+        "Letra": "Fe",
+        "Nombre": "Hierro",
+        "Peso": "55,845",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 27,
+        "Letra": "Co",
+        "Nombre": "Cobalto",
+        "Peso": "58,933",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 28,
+        "Letra": "Ni",
+        "Nombre": "Niquel",
+        "Peso": "58,693",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 29,
+        "Letra": "Cu",
+        "Nombre": "Cobre",
+        "Peso": "63,546",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 30,
+        "Letra": "Zn",
+        "Nombre": "Zinc",
+        "Peso": "65,38",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 31,
+        "Letra": "Ga",
+        "Nombre": "Galio",
+        "Peso": "69,723",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 32,
+        "Letra": "Ge",
+        "Nombre": "Germanio",
+        "Peso": "72,630",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 33,
+        "Letra": "As",
+        "Nombre": "Arsénico",
+        "Peso": "74,922",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 34,
+        "Letra": "Se",
+        "Nombre": "Selenio",
+        "Peso": "79,971",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 35,
+        "Letra": "Br",
+        "Nombre": "Bromo",
+        "Peso": "79,904",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 36,
+        "Letra": "Kr",
+        "Nombre": "Kriptón",
+        "Peso": "83,798",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 37,
+        "Letra": "Rb",
+        "Nombre": "Rubidio",
+        "Peso": "85,468",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 38,
+        "Letra": "Sr",
+        "Nombre": "Estroncio",
+        "Peso": "87,62",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 39,
+        "Letra": "Y",
+        "Nombre": "Itrio",
+        "Peso": "88,906",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 40,
+        "Letra": "Zr",
+        "Nombre": "Circonio",
+        "Peso": "91,224",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 41,
+        "Letra": "Nb",
+        "Nombre": "Niobio",
+        "Peso": "92,906",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 42,
+        "Letra": "Mo",
+        "Nombre": "Molibdeno",
+        "Peso": "95,95",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 43,
+        "Letra": "Tc",
+        "Nombre": "Tecnecio",
+        "Peso": "98",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 44,
+        "Letra": "Ru",
+        "Nombre": "Rutenio",
+        "Peso": "101,07",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 45,
+        "Letra": "Rh",
+        "Nombre": "Rodio",
+        "Peso": "101,91",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 46,
+        "Letra": "Pd",
+        "Nombre": "Paladio",
+        "Peso": "106,42",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 47,
+        "Letra": "Ag",
+        "Nombre": "Plata",
+        "Peso": "107,87",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 48,
+        "Letra": "Cd",
+        "Nombre": "Cadmio",
+        "Peso": "112,41",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 49,
+        "Letra": "In",
+        "Nombre": "Indio",
+        "Peso": "114,82",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 50,
+        "Letra": "Sn",
+        "Nombre": "Estaño",
+        "Peso": "118,71",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 51,
+        "Letra": "Sb",
+        "Nombre": "Antimonio",
+        "Peso": "121,76",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 52,
+        "Letra": "Te",
+        "Nombre": "Telurio",
+        "Peso": "127,60",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 53,
+        "Letra": "I",
+        "Nombre": "Yodo",
+        "Peso": "126,90",
+        "Tipo": "No metal"
+    },
+    {
+        "Id": 54,
+        "Letra": "Xe",
+        "Nombre": "Xenón",
+        "Peso": "131,29",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 55,
+        "Letra": "Cs",
+        "Nombre": "Cesio",
+        "Peso": "132,91",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 56,
+        "Letra": "Ba",
+        "Nombre": "Bario",
+        "Peso": "137,33",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 57,
+        "Letra": "La",
+        "Nombre": "Lantano",
+        "Peso": "138,91",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 58,
+        "Letra": "Ce",
+        "Nombre": "Cerio",
+        "Peso": "140,12",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 59,
+        "Letra": "Pr",
+        "Nombre": "Praseodimio",
+        "Peso": "140,91",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 60,
+        "Letra": "Nd",
+        "Nombre": "Neodimio",
+        "Peso": "144,24",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 61,
+        "Letra": "Pm",
+        "Nombre": "Prometio",
+        "Peso": "145",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 62,
+        "Letra": "Sm",
+        "Nombre": "Samario",
+        "Peso": "150,36",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 63,
+        "Letra": "Eu",
+        "Nombre": "Europio",
+        "Peso": "151,96",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 64,
+        "Letra": "Gd",
+        "Nombre": "Gadolinio",
+        "Peso": "157,25",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 65,
+        "Letra": "Tb",
+        "Nombre": "Terbio",
+        "Peso": "158,93",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 66,
+        "Letra": "Dy",
+        "Nombre": "Disprosio",
+        "Peso": "162,50",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 67,
+        "Letra": "Ho",
+        "Nombre": "Holmio",
+        "Peso": "164,93",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 68,
+        "Letra": "Er",
+        "Nombre": "Erbio",
+        "Peso": "167,26",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 69,
+        "Letra": "Tm",
+        "Nombre": "Tulio",
+        "Peso": "168,93",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 70,
+        "Letra": "Yb",
+        "Nombre": "Iterbio",
+        "Peso": "173,05",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 71,
+        "Letra": "Lu",
+        "Nombre": "Lutecio",
+        "Peso": "174,97",
+        "Tipo": "Lantánido"
+    },
+    {
+        "Id": 72,
+        "Letra": "Hf",
+        "Nombre": "Hafnio",
+        "Peso": "178,49",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 73,
+        "Letra": "Ta",
+        "Nombre": "Tántalo",
+        "Peso": "180,95",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 74,
+        "Letra": "W",
+        "Nombre": "Wolframio",
+        "Peso": "183,84",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 75,
+        "Letra": "Re",
+        "Nombre": "Renio",
+        "Peso": "186,21",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 76,
+        "Letra": "Os",
+        "Nombre": "Osmio",
+        "Peso": "190,23",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 77,
+        "Letra": "Ir",
+        "Nombre": "Iridio",
+        "Peso": "192,22",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 78,
+        "Letra": "Pt",
+        "Nombre": "Platino",
+        "Peso": "195,08",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 79,
+        "Letra": "Au",
+        "Nombre": "Oro",
+        "Peso": "196,97",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 80,
+        "Letra": "Hg",
+        "Nombre": "Mercurio",
+        "Peso": "200,59",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 81,
+        "Letra": "TI",
+        "Nombre": "Talio",
+        "Peso": "204,38",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 82,
+        "Letra": "Pb",
+        "Nombre": "Plomo",
+        "Peso": "207,2",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 83,
+        "Letra": "Bi",
+        "Nombre": "Bismuto",
+        "Peso": "208,98",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 84,
+        "Letra": "Po",
+        "Nombre": "Polonio",
+        "Peso": "209",
+        "Tipo": "Metal del bloque"
+    },
+    {
+        "Id": 85,
+        "Letra": "At",
+        "Nombre": "Ástato",
+        "Peso": "210",
+        "Tipo": "Semimetal"
+    },
+    {
+        "Id": 86,
+        "Letra": "Rn",
+        "Nombre": "Radón",
+        "Peso": "222",
+        "Tipo": "Gaseoso"
+    },
+    {
+        "Id": 87,
+        "Letra": "Fr",
+        "Nombre": "Francio",
+        "Peso": "223",
+        "Tipo": "Alcalino"
+    },
+    {
+        "Id": 88,
+        "Letra": "Ra",
+        "Nombre": "Radio",
+        "Peso": "226",
+        "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 89,
+        "Letra": "Ac",
+        "Nombre": "Actinio",
+        "Peso": "227",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 90,
+        "Letra": "Th",
+        "Nombre": "Torio",
+        "Peso": "232,04",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 91,
+        "Letra": "Pa",
+        "Nombre": "Protactinio",
+        "Peso": "231,04",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 92,
+        "Letra": "U",
+        "Nombre": "Uranio",
+        "Peso": "238,03",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 93,
+        "Letra": "Np",
+        "Nombre": "Neptunio",
+        "Peso": "237",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 94,
+        "Letra": "Pu",
+        "Nombre": "Plutonio",
+        "Peso": "244",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 95,
+        "Letra": "Am",
+        "Nombre": "Americio",
+        "Peso": "243",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 96,
+        "Letra": "Cm",
+        "Nombre": "Curio",
+        "Peso": "247",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 97,
+        "Letra": "Bk",
+        "Nombre": "Berkelio",
+        "Peso": "247",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 98,
+        "Letra": "Cf",
+        "Nombre": "Californio",
+        "Peso": "251",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 99,
+        "Letra": "Es",
+        "Nombre": "Einstenio",
+        "Peso": "252",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 100,
+        "Letra": "Fm",
+        "Nombre": "Fermio",
+        "Peso": "257",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 101,
+        "Letra": "Md",
+        "Nombre": "Mendelevio",
+        "Peso": "258",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 102,
+        "Letra": "No",
+        "Nombre": "Nobelio",
+        "Peso": "259",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 103,
+        "Letra": "Lr",
+        "Nombre": "Lawrencio",
+        "Peso": "266",
+        "Tipo": "Actínido"
+    },
+    {
+        "Id": 104,
+        "Letra": "Fe",
+        "Nombre": "Hierro",
+        "Peso": "55,845",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 105,
+        "Letra": "Db",
+        "Nombre": "Dubnio",
+        "Peso": "268",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 106,
+        "Letra": "Sg",
+        "Nombre": "Seaborgio",
+        "Peso": "269",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 107,
+        "Letra": "Bh",
+        "Nombre": "Bohrio",
+        "Peso": "270",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 108,
+        "Letra": "Hs",
+        "Nombre": "Hasio",
+        "Peso": "277",
+        "Tipo": "Metal de transición"
+    },
+    {
+        "Id": 109,
+        "Letra": "Mt",
+        "Nombre": "Meitnerio",
+        "Peso": "278",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 110,
+        "Letra": "Ds",
+        "Nombre": "Darmstatio",
+        "Peso": "281",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 111,
+        "Letra": "Rg",
+        "Nombre": "Roentgenio",
+        "Peso": "282",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 112,
+        "Letra": "Cn",
+        "Nombre": "Copernicio",
+        "Peso": "285",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 113,
+        "Letra": "Nh",
+        "Nombre": "Nihonio",
+        "Peso": "286",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 114,
+        "Letra": "Fl",
+        "Nombre": "Flerovio",
+        "Peso": "289",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 115,
+        "Letra": "Mc",
+        "Nombre": "Moscovio",
+        "Peso": "290",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 116,
+        "Letra": "Lv",
+        "Nombre": "Livermorio",
+        "Peso": "293",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 117,
+        "Letra": "Ts",
+        "Nombre": "Teneso",
+        "Peso": "294",
+        "Tipo": "Desconocido"
+    },
+    {
+        "Id": 118,
+        "Letra": "Og",
+        "Nombre": "Oganesón",
+        "Peso": "294",
+        "Tipo": "Desconocido"
+    }
+]
