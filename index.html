@@ -8,12 +8,34 @@
 </head>
 <body>
     <div id="elemento"></div>
+    <div class="botones">
+        <div class="Metal">
+            <p>|------------------------------------------------------------ Metales -------------------------------------------|</p>
+            <button id="Alcalino">Alcalino</button>
+            <button id="Alcalinoterreo">Alcalinotérreo</button>
+            <button id="Lantánido">Lantánido</button>
+            <button id="Actínido">Actínido</button>
+            <button id="Metal_de_transición">Metal de transición</button>
+            <button id="Metal_de_bloque">Metal del bloque p</button>
+        </div>
+        <div class="SemiMetal">
+            <p>Semi-metal</p>
+            <button id="Semimetal">Semimetal</button>
+        </div>
+        <div class="NoMetales">
+            <p>|---------- No Metales----------|</p>
+            <button id="No_metal">No metales</button>
+            <button id="Gaseoso">Gases nobles</button>
+        </div>
+    </div>
         
     <div class="container">
         <div class="tabla-periodica">
         </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" integrity="sha512-6MCPs9fbSIt6mTpJH2Lbo9Kk71gcgwY85BCqJGP04x+O08W3m/OiKfMiMc4VQKYn+DCtAQwpGumWeD0cACeRsQ==" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script>
     $(document).ready(function(){
@@ -49,7 +71,6 @@
     });
 
     function Elemento(id){
-        
         let elemento = document.querySelector("#elemento");
         /* alert(id); */
         fetch('elementos.json')
@@ -70,5 +91,8 @@
         });
         elemento.innerHTML = ``;
     }
+
+    
 </script>
+<script src="Elementos_cuadros.js"></script>
 </html>

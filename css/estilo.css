@@ -21,8 +21,9 @@ body{
     background: rgb(255 255 255);
     border: 1px solid black;
     position: absolute;
-    right: 10%;
-    margin-top: 1rem;
+    left: 40%;
+    margin-top: 5rem;
+    top: 15%;
 }
 .tabla-periodica{
     width: 98%;
@@ -46,7 +47,9 @@ body{
     transition: all 0.3s ease;
 }
 .item:hover{
-    opacity: 0.7;
+    color: rgb(255, 0, 0);
+    opacity: 0.9;
+    
 }
 .numero{
     text-align: right;
@@ -65,35 +68,35 @@ body{
 }
 
 /*colores por elemento*/
-.No_metal{
+.No_metal, #No_metal{
     background: #8CED8C;
 }
-.Gaseoso{
+.Gaseoso, #Gaseoso{
     background: #E5BDE5;
 }
-.Alcalino{
+.Alcalino, #Alcalino{
     background: #eace5d;
 }
-.Alcalinoterreo{
+.Alcalinoterreo, #Alcalinoterreo{
     background: #F1F165;
 }
-.Metal_de_transición{
+.Metal_de_transición, #Metal_de_transición{
     background: #F4CDCD;
 }
-.Semimetal{
+.Semimetal, #Semimetal{
     background: #9EE5D4;
 }
-.Metal_de_bloque{
+.Metal_de_bloque, #Metal_de_bloque{
     background: #ACDFEC;
 }
-.Desconocido{
+.Desconocido, #Desconocido{
     background: #EEEEEE;
 }
 
-.Lantánido{
+.Lantánido, #Lantánido{
     background: #F6D4A2;
 }
-.Actínido{
+.Actínido, #Actínido{
     background: #FACCDB;
 }
 
@@ -123,4 +126,64 @@ body{
     font-size: 1rem;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*botones posicionamiento*/
+.botones{
+    width: auto;
+    /* position: fixed;
+    top: 2%;
+    left: 2%; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-top: 1.5em;
+}
+
+.Metal p, .SemiMetal p, .NoMetales p{
+    text-align: center;
+}
+.botones .Metal > #Alcalino{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .Metal> #Alcalinoterreo{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .Metal> #Lantánido{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .Metal> #Actínido{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .Metal> #Metal_de_transición{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .Metal> #Metal_de_bloque{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .SemiMetal > #Semimetal{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .NoMetales > #No_metal{
+    color: black;
+    padding: 0.5em;
+    margin-right: 0.5rem;
+}
+.botones .NoMetales > #Gaseoso{
+    color: black;
+    padding: 0.5em;
 }
