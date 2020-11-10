@@ -43,6 +43,10 @@ body{
     color: rgb(0, 0, 0);
     width: auto;
     height: auto;
+    transition: all 0.3s ease;
+}
+.item:hover{
+    opacity: 0.8;
 }
 .numero{
     text-align: right;

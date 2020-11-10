@@ -30,20 +30,27 @@
             contenido.innerHTML = ``;
             
             for(let item of datos){
+                //onclick="alert('${item.Id} | ${item.Letra} | ${item.Nombre}');"
                 contenido.innerHTML += `
-                <div class="item ${item.Tipo}" id="${item.Id}" onclick="alert('${item.Id} | ${item.Letra} | ${item.Nombre}');">
+                <div class="item ${item.Tipo}" id="1"
+                onclick="Elemento(${item.Id});return false;"
+                ">
                     <div class="numero">${item.Id}</div>
                     <div class="grupo">${item.Letra}</div>
                     <div class="letra">${item.Nombre}</div>
                     <div class="peso">${item.Peso}</div>
                 </div>
-                         
             `;  
+           
             }
         }
         traer();
         
     });
+
+    function Elemento(id){
+        alert("hey"+id);
+    }
         
 </script>
 </html>
