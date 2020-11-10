@@ -51,7 +51,7 @@
     function Elemento(id){
         
         let elemento = document.querySelector("#elemento");
-        alert(id);
+        /* alert(id); */
         fetch('elementos.json')
         .then(res => res.json())
         .then(results => {
@@ -66,7 +66,7 @@
                     <div class='pesoElemento'>${newArray[0].Peso}</div>
                 <div>
             `;
-            console.log(newArray);
+            /* console.log("Tu nuevo elemento es ",newArray); */
         });
         elemento.innerHTML = ``;
     }
