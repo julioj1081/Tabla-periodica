@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Tabla</title>
+    <title>Tabla Periodica</title>
 </head>
 <body>
+    <div id="elemento"></div>
+        
     <div class="container">
         <div class="tabla-periodica">
         </div>
-        
-        <div class="mensaje">En el caso de los elementos con isotopos no estables, entre parentesis se encuentran las masas de aquellos isótopos que son más estables o más abundantes.</div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -41,16 +41,34 @@
                     <div class="peso">${item.Peso}</div>
                 </div>
             `;  
-           
             }
         }
         traer();
         
+  
     });
 
     function Elemento(id){
-        alert("hey"+id);
-    }
         
+        let elemento = document.querySelector("#elemento");
+        alert(id);
+        fetch('elementos.json')
+        .then(res => res.json())
+        .then(results => {
+            var newArray = results.filter(function(el){
+                return (el.Id == id);
+            });
+            elemento.innerHTML += `
+                <div class='${newArray[0].Tipo}' style='width: auto; height: 100%;'>
+                    <div class='numeroElemento'>${newArray[0].Id}</div>
+                    <div class='letraElemento'>${newArray[0].Letra}</div>
+                    <div class='nombreElemento'>${newArray[0].Nombre}</div>
+                    <div class='pesoElemento'>${newArray[0].Peso}</div>
+                <div>
+            `;
+            console.log(newArray);
+        });
+        elemento.innerHTML = ``;
+    }
 </script>
 </html>
