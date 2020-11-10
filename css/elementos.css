@@ -1,0 +1,239 @@
+/*helio*/
+.item:nth-child(2){
+    grid-column-start: 18;
+}
+/*Liberio*/
+.item:nth-child(3){
+    grid-row-start: 2;
+}
+/*Berio*/
+.item:nth-child(4){
+    /* grid-row-start: 2;
+    grid-column-start: 2; */
+}
+/*Boro*/
+.item:nth-child(5){
+    grid-column-start: 13;
+}
+/*Carbono*/
+.item:nth-child(6){
+/*     grid-column-start: 14;
+ */}
+/*Nitrogeno*/
+.item:nth-child(7){
+
+}
+/*Oxigeno*/
+.item:nth-child(8){
+    
+}
+/*Flour*/
+.item:nth-child(9){
+    
+}
+/*Neon*/
+.item:nth-child(10){
+    
+}
+/*sodio*/
+.item:nth-child(11){
+
+}
+/*Magnesio*/
+.item:nth-child(12){
+    
+}
+/*Aluminio*/
+.item:nth-child(13){
+    grid-column-start: 13;
+}
+/*Silicio*/
+.item:nth-child(14){
+}
+/*Fosforo*/
+.item:nth-child(15){
+}
+/*Asufre*/
+.item:nth-child(16){
+}
+/*Cloro*/
+.item:nth-child(17){
+}
+/*Argon*/
+.item:nth-child(18){
+}
+/*Potacio*/
+.item:nth-child(19){
+}
+/*Calcio*/
+.item:nth-child(20){
+}
+/*Estancio*/
+.item:nth-child(21){
+}
+/*Titanio*/
+.item:nth-child(22){
+}
+/*Vanadio*/
+.item:nth-child(23){
+}
+/*Cromo*/
+.item:nth-child(24){
+}
+/*Magnesio*/
+.item:nth-child(25){
+}
+/*Hierro*/
+.item:nth-child(26){
+}
+/*Colbato*/
+.item:nth-child(27){
+}
+
+/*36 krypton*/
+.item:nth-child(36){
+}
+/*37 Rubidio*/
+.item:nth-child(37){
+}
+
+/*54 Xeon*/
+.item:nth-child(54){
+}
+/*55 Cesio*/
+.item:nth-child(55){
+}
+/*56 Bario*/
+.item:nth-child(56){
+}
+.item:nth-child(57), .item:nth-child(90){
+    background: #BBBBFF;
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: 100;
+} 
+
+
+/***************** PRIMER CUADRO EN BLANCO ************************/
+.item:nth-child(58){
+    grid-column-start: 4;
+    grid-row-start: 9;/* 
+    background: red; */
+}
+.item:nth-child(59){
+    grid-row-start: 9;
+    grid-column-start: 5;
+}
+.item:nth-child(60){
+    grid-row-start: 9;
+    grid-column-start: 6;
+}
+.item:nth-child(61){
+    grid-row-start: 9;
+    grid-column-start: 7;
+}
+.item:nth-child(62){
+    grid-row-start: 9;
+    grid-column-start: 8;
+}
+.item:nth-child(63){
+    grid-row-start: 9;
+    grid-column-start: 9;
+}
+.item:nth-child(64){
+    grid-row-start: 9;
+    grid-column-start: 10;
+}
+.item:nth-child(65){
+    grid-row-start: 9;
+    grid-column-start: 11;
+}
+.item:nth-child(66){
+    grid-row-start: 9;
+    grid-column-start: 12;
+}
+.item:nth-child(67){
+    grid-row-start: 9;
+    grid-column-start: 13;
+}
+.item:nth-child(68){
+    grid-row-start: 9;
+    grid-column-start: 14;
+}
+.item:nth-child(69){
+    grid-row-start: 9;
+    grid-column-start: 15;
+}
+.item:nth-child(70){
+    grid-row-start: 9;
+    grid-column-start: 16;
+}
+.item:nth-child(71){
+    grid-row-start: 9;
+    grid-column-start: 17;
+}
+.item:nth-child(72){
+    grid-row-start: 9;
+    grid-column-start: 18;
+}
+
+.item:nth-child(91){
+    grid-row-start: 10;
+    grid-column-start: 4;/* 
+    background-color: aqua; */
+}
+.item:nth-child(92){
+    grid-row-start: 10;
+    grid-column-start: 5;
+}
+.item:nth-child(93){
+    grid-row-start: 10;
+    grid-column-start: 6;
+}
+.item:nth-child(94){
+    grid-row-start: 10;
+    grid-column-start: 7;
+}
+.item:nth-child(95){
+    grid-row-start: 10;
+    grid-column-start: 8;
+}
+.item:nth-child(96){
+    grid-row-start: 10;
+    grid-column-start: 9;
+}
+.item:nth-child(97){
+    grid-row-start: 10;
+    grid-column-start: 10;
+}
+.item:nth-child(98){
+    grid-row-start: 10;
+    grid-column-start: 11;
+}
+.item:nth-child(99){
+    grid-row-start: 10;
+    grid-column-start: 12;
+}
+.item:nth-child(100){
+    grid-row-start: 10;
+    grid-column-start: 13;
+}
+.item:nth-child(101){
+    grid-row-start: 10;
+    grid-column-start: 14;
+}
+.item:nth-child(102){
+    grid-row-start: 10;
+    grid-column-start: 15;
+}
+.item:nth-child(103){
+    grid-row-start: 10;
+    grid-column-start: 16;
+}
+.item:nth-child(104){
+    grid-row-start: 10;
+    grid-column-start: 17;
+}
+.item:nth-child(105){
+    grid-row-start: 10;
+    grid-column-start: 18;
+}

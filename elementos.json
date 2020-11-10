@@ -4,7 +4,7 @@
         "Letra": "H",
         "Nombre": "Hidrógeno",
         "Peso": "1,008",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 2,
@@ -39,28 +39,28 @@
         "Letra": "C",
         "Nombre": "Carbono",
         "Peso": "12,011",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 7,
         "Letra": "N",
         "Nombre": "Nitrógeno",
         "Peso": "14,007",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 8,
         "Letra": "O",
         "Nombre": "Oxígeno",
         "Peso": "15,999",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 9,
         "Letra": "F",
         "Nombre": "Flúor",
         "Peso": "18,998",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 10,
@@ -88,7 +88,7 @@
         "Letra": "Mg",
         "Nombre": "Magnesio",
         "Peso": "24,305",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 14,
@@ -102,21 +102,21 @@
         "Letra": "P",
         "Nombre": "Fósforo",
         "Peso": "30,974",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 16,
         "Letra": "S",
         "Nombre": "Azufre",
         "Peso": "32,06",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 17,
         "Letra": "Cl",
         "Nombre": "Cloro",
         "Peso": "35,45",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 18,
@@ -144,77 +144,77 @@
         "Letra": "Ss",
         "Nombre": "Escandio",
         "Peso": "44,956",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 22,
         "Letra": "Ti",
         "Nombre": "Titanio",
         "Peso": "47,867",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 23,
         "Letra": "V",
         "Nombre": "Vanadio",
         "Peso": "50,942",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 24,
         "Letra": "Cr",
         "Nombre": "Cromo",
         "Peso": "51,996",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 25,
         "Letra": "Mn",
         "Nombre": "Manganeso",
         "Peso": "54,938",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 26,
         "Letra": "Fe",
         "Nombre": "Hierro",
         "Peso": "55,845",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 27,
         "Letra": "Co",
         "Nombre": "Cobalto",
         "Peso": "58,933",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 28,
         "Letra": "Ni",
         "Nombre": "Niquel",
         "Peso": "58,693",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 29,
         "Letra": "Cu",
         "Nombre": "Cobre",
         "Peso": "63,546",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 30,
         "Letra": "Zn",
         "Nombre": "Zinc",
         "Peso": "65,38",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 31,
         "Letra": "Ga",
         "Nombre": "Galio",
         "Peso": "69,723",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 32,
@@ -235,14 +235,14 @@
         "Letra": "Se",
         "Nombre": "Selenio",
         "Peso": "79,971",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 35,
         "Letra": "Br",
         "Nombre": "Bromo",
         "Peso": "79,904",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 36,
@@ -270,84 +270,84 @@
         "Letra": "Y",
         "Nombre": "Itrio",
         "Peso": "88,906",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 40,
         "Letra": "Zr",
         "Nombre": "Circonio",
         "Peso": "91,224",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 41,
         "Letra": "Nb",
         "Nombre": "Niobio",
         "Peso": "92,906",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 42,
         "Letra": "Mo",
         "Nombre": "Molibdeno",
         "Peso": "95,95",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 43,
         "Letra": "Tc",
         "Nombre": "Tecnecio",
         "Peso": "98",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 44,
         "Letra": "Ru",
         "Nombre": "Rutenio",
         "Peso": "101,07",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 45,
         "Letra": "Rh",
         "Nombre": "Rodio",
         "Peso": "101,91",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 46,
         "Letra": "Pd",
         "Nombre": "Paladio",
         "Peso": "106,42",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 47,
         "Letra": "Ag",
         "Nombre": "Plata",
         "Peso": "107,87",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 48,
         "Letra": "Cd",
         "Nombre": "Cadmio",
         "Peso": "112,41",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 49,
         "Letra": "In",
         "Nombre": "Indio",
         "Peso": "114,82",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 50,
         "Letra": "Sn",
         "Nombre": "Estaño",
         "Peso": "118,71",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 51,
@@ -368,7 +368,7 @@
         "Letra": "I",
         "Nombre": "Yodo",
         "Peso": "126,90",
-        "Tipo": "No metal"
+        "Tipo": "No_metal"
     },
     {
         "Id": 54,
@@ -390,6 +390,13 @@
         "Nombre": "Bario",
         "Peso": "137,33",
         "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 57,
+        "Letra": "57-71",
+        "Nombre": "",
+        "Peso": "",
+        "Tipo": ""
     },
     {
         "Id": 57,
@@ -501,91 +508,91 @@
         "Letra": "Hf",
         "Nombre": "Hafnio",
         "Peso": "178,49",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 73,
         "Letra": "Ta",
         "Nombre": "Tántalo",
         "Peso": "180,95",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 74,
         "Letra": "W",
         "Nombre": "Wolframio",
         "Peso": "183,84",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 75,
         "Letra": "Re",
         "Nombre": "Renio",
         "Peso": "186,21",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 76,
         "Letra": "Os",
         "Nombre": "Osmio",
         "Peso": "190,23",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 77,
         "Letra": "Ir",
         "Nombre": "Iridio",
         "Peso": "192,22",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 78,
         "Letra": "Pt",
         "Nombre": "Platino",
         "Peso": "195,08",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 79,
         "Letra": "Au",
         "Nombre": "Oro",
         "Peso": "196,97",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 80,
         "Letra": "Hg",
         "Nombre": "Mercurio",
         "Peso": "200,59",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 81,
         "Letra": "TI",
         "Nombre": "Talio",
         "Peso": "204,38",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 82,
         "Letra": "Pb",
         "Nombre": "Plomo",
         "Peso": "207,2",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 83,
         "Letra": "Bi",
         "Nombre": "Bismuto",
         "Peso": "208,98",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 84,
         "Letra": "Po",
         "Nombre": "Polonio",
         "Peso": "209",
-        "Tipo": "Metal del bloque"
+        "Tipo": "Metal_de_bloque"
     },
     {
         "Id": 85,
@@ -614,6 +621,13 @@
         "Nombre": "Radio",
         "Peso": "226",
         "Tipo": "Alcalinoterreo"
+    },
+    {
+        "Id": 89,
+        "Letra": "89-103",
+        "Nombre": "",
+        "Peso": "",
+        "Tipo": ""
     },
     {
         "Id": 89,
@@ -725,35 +739,35 @@
         "Letra": "Fe",
         "Nombre": "Hierro",
         "Peso": "55,845",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 105,
         "Letra": "Db",
         "Nombre": "Dubnio",
         "Peso": "268",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 106,
         "Letra": "Sg",
         "Nombre": "Seaborgio",
         "Peso": "269",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 107,
         "Letra": "Bh",
         "Nombre": "Bohrio",
         "Peso": "270",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 108,
         "Letra": "Hs",
         "Nombre": "Hasio",
         "Peso": "277",
-        "Tipo": "Metal de transición"
+        "Tipo": "Metal_de_transición"
     },
     {
         "Id": 109,
